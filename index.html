@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Store</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Gabriel Lacerda" />
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="./img/favicon.ico" />
+
+        <script defer src="./js/script.js"></script>
+    </head>
+    <body>
+        <header></header>
+
+        <section class="logo">
+            <img alt="logo" src="./img/logo.png">
+        </section>
+
+        <section class="products">
+            <div class="center">
+                <h2>Produtos</h2>
+                <img alt="box" src="./img/box.png" />
+            </div>
+            <div class="center-out">
+                <div class="products-container"></div>
+            </div>
+        </section>
+
+        <section class="cart">
+            <div class="center">
+                <div class="cart-header">
+                    <h2>Carrinho</h2>
+                    <img alt="cart" src="./img/cart.png" />
+                </div>
+                <div class="cart-list"></div>
+                <div class="total-amount">
+                    <h3>Total BTC <span id="total-amount">0</span></h3>
+                </div>
+                <button id="final-button">
+                    <p>Finalizar compra</p>
+                    <div class="icon-button"></div>
+                </button>
+            </div>
+        </section>
+
+        <div id="snackbar">
+            <div id="snackbar-container">
+                <img alt="info-icon" src="./img/info.png" /> <p id="snackbar-text"></p>
+            </div>
+        </div>
+
+        <footer></footer>
+    </body>
+</html>
